@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 # URL de la que quieres extraer el texto
 url = "https://tn.com.ar/economia/2025/03/18/dolar-hoy-a-cuanto-cotizan-el-oficial-y-las-otras-opciones-cambiarias-este-martes-18-de-marzo/"
 
+
+# only testing
+
 # Realizamos la solicitud HTTP
 response = requests.get(url)
 
